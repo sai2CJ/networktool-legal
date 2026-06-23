@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>网络工具隐私政策</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --bg: #f5f7fb;
+            --card: #ffffff;
+            --text: #182033;
+            --muted: #5c667a;
+            --line: #dbe2ef;
+            --brand: #155eef;
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            line-height: 1.75;
+        }
+
+        main {
+            max-width: 880px;
+            margin: 0 auto;
+            padding: 40px 18px 64px;
+        }
+
+        article {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 18px;
+            padding: 28px;
+            box-shadow: 0 18px 50px rgba(20, 35, 70, 0.08);
+        }
+
+        h1, h2 {
+            line-height: 1.35;
+        }
+
+        h1 {
+            margin: 0 0 8px;
+            font-size: 30px;
+        }
+
+        h2 {
+            margin-top: 32px;
+            font-size: 20px;
+        }
+
+        p, li {
+            font-size: 15px;
+        }
+
+        .meta {
+            margin: 0 0 24px;
+            color: var(--muted);
+        }
+
+        .notice {
+            border-left: 4px solid var(--brand);
+            background: #eef4ff;
+            padding: 12px 14px;
+            border-radius: 10px;
+        }
+
+        code {
+            background: #eef1f6;
+            border-radius: 6px;
+            padding: 2px 6px;
+        }
+
+        a {
+            color: var(--brand);
+        }
+    </style>
+</head>
+<body>
+<main>
+    <article>
+        <h1>网络工具隐私政策</h1>
+        <p class="meta">生效日期：2026 年 6 月 20 日</p>
+
+        <p class="notice">
+            本隐私政策适用于 Android 应用“网络工具”（包名：<code>com.kuoluo.networktool</code>）。上线前请将“开发者名称”和“联系邮箱”替换为 Google Play 商品详情中一致的信息。
+        </p>
+
+        <h2>一、开发者信息</h2>
+        <p>应用名称：网络工具</p>
+        <p>开发者：请替换为你的 Google Play 开发者名称</p>
+        <p>隐私问题联系方式：请替换为你的联系邮箱</p>
+
+        <h2>二、我们提供的功能</h2>
+        <p>网络工具用于提供网络环境排查能力，包括当前网络概览、Ping、Tcping、Telnet、站点测试、DNS 设置检测、域名解析、IP 查询、你的 IP、网络诊断等功能。</p>
+
+        <h2>三、我们访问、收集或处理的数据</h2>
+        <p>为了提供上述功能，应用可能会在你主动使用相关功能时访问或处理以下数据：</p>
+        <ul>
+            <li>网络连接状态，例如是否联网、网络类型。</li>
+            <li>本地网络信息，例如本地 IP、网关、DNS 服务器。</li>
+            <li>你输入的域名、IP 地址、端口、URL 或测试次数。</li>
+            <li>网络测试结果，例如连接状态、延迟、HTTP 状态码、DNS 解析结果、诊断摘要。</li>
+            <li>公网 IP 和 IP 地理信息查询结果，例如国家、地区、城市、运营商信息。</li>
+        </ul>
+
+        <h2>四、数据如何使用</h2>
+        <p>上述数据仅用于完成你主动发起的网络检测、查询和诊断操作，帮助你判断当前网络环境、目标主机连通性、端口可达性、DNS 配置和 IP 信息。</p>
+        <p>本应用不提供账号注册、登录、广告投放、支付或社交功能，不会基于上述数据建立用户画像，也不会出售个人数据。</p>
+
+        <h2>五、数据共享与第三方服务</h2>
+        <p>本应用当前不使用自有服务器存储用户数据。部分功能需要向第三方或目标网络服务发送请求：</p>
+        <ul>
+            <li>当你使用“IP 查询”或“你的 IP”功能时，应用会通过 HTTPS 请求 <code>https://ipapi.co/</code> 获取公网 IP 或 IP 信息。该第三方服务可能会接收你的公网 IP、查询的 IP 地址以及请求相关技术信息。</li>
+            <li>当你使用 Ping、Tcping、Telnet、站点测试或域名解析功能时，你输入的目标域名、IP、端口或 URL 会被用于向目标主机、网站或系统 DNS 解析器发起网络请求。目标服务或网络运营商可能会看到你的请求来源 IP 和相关网络请求信息。</li>
+        </ul>
+        <p>除上述为实现功能所必需的网络请求外，我们不会主动向其他第三方出售、出租或共享你的个人数据。</p>
+
+        <h2>六、权限说明</h2>
+        <p>应用可能使用以下 Android 权限：</p>
+        <ul>
+            <li><code>INTERNET</code>：用于执行网络检测、站点测试、IP 查询和域名解析。</li>
+            <li><code>ACCESS_NETWORK_STATE</code>：用于判断当前网络连接状态和网络类型。</li>
+            <li><code>ACCESS_WIFI_STATE</code>：用于读取与网络诊断相关的 Wi-Fi/本地网络信息，例如本地 IP 或网关信息。</li>
+        </ul>
+
+        <h2>七、数据存储、保留与删除</h2>
+        <p>当前版本不会要求你创建账号，也不会将你的网络诊断记录上传到我们的服务器。检测结果主要在应用界面中即时展示，应用关闭或你清空结果后不再用于其他目的。</p>
+        <p>如果你希望删除应用在设备上的本地数据，可以通过 Android 系统设置清除应用数据，或卸载本应用。</p>
+
+        <h2>八、数据安全</h2>
+        <p>应用与第三方 IP 查询服务之间使用 HTTPS 传输。我们会尽量以最小权限原则访问设备网络信息，并仅在提供功能所需范围内处理数据。</p>
+        <p>请注意，任何互联网传输都无法保证绝对安全。你在使用站点测试、端口测试或域名解析功能时，应避免输入敏感、私密或受限制的内部地址，除非你确认有权进行相关测试。</p>
+
+        <h2>九、儿童隐私</h2>
+        <p>本应用不是面向儿童设计的应用，也不会有意收集儿童个人信息。如果你认为儿童向我们提供了个人信息，请通过本政策中的联系方式与我们联系。</p>
+
+        <h2>十、政策更新</h2>
+        <p>我们可能会根据应用功能、法律法规或 Google Play 政策要求更新本隐私政策。更新后会在本页面修改生效日期。重大变更会在合理范围内通过应用内或应用商店页面提示用户。</p>
+
+        <h2>十一、联系我们</h2>
+        <p>如果你对本隐私政策或数据处理方式有任何问题，请通过以下方式联系：</p>
+        <p>联系邮箱：请替换为你的联系邮箱</p>
+    </article>
+</main>
+</body>
+</html>
